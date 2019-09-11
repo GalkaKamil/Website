@@ -5,20 +5,35 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
 
+
+
 img{
     max-width: 100%;
     max-height: 100%;
   }
 
-#topbar{
-    height: 50px;
+  .img-smarphone{
+    max-block-size: 0px;
+  }
+
+.topbar-list{
+    list-style-type: none;
+    text-align: center;
     background: rgb(85 , 102, 15);
+  }
+
+  .topbar-list li{
+    margin-top: 5px;
+  }
+
+  .topbar-list li img{
+  display: grid;
+  margin: 5px;
+  text-decoration: none;
   }
 
 .navbar-list{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color:white;
 }
@@ -31,8 +46,7 @@ img{
 .navbar-list li a{
   display: block;
   color: black;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 0 30px;
   text-decoration: none;
 }
 
@@ -40,18 +54,13 @@ img{
   transform: scale(1.1);
 }
 
-.wyjatek-kurwa{
-  
-  padding: 1px 700px;
+.obrpad{
+  border: 1px solid powderblue;
+  padding: 50px;
 }
 
-.wyjatek-kurwa img{
-  max-height: 40px;
+.obrmar{
+  border: 1px solid powderblue;
+  margin: 50px;
 }
-
-
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-
-
-
 
