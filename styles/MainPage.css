@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+#topbar{
+    height: 50px;
+    background: rgb(85 , 102, 15);
+  }
+
+.navbar-list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:white;
+}
+
+.navbar-list li{
+  float:right;
+  
+}
+
+.navbar-list li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-list li a:hover{
+  transform: scale(1.1);
+}
+
+.wyjatek-kurwa{
+  
+  padding: 1px 700px;
+}
+
+.wyjatek-kurwa img{
+  max-height: 40px;
+}
+
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+
+
+
